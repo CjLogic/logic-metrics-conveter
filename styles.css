@@ -1,0 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: linear-gradient(90deg, #000000e6 0%, #434143 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  width: 550px; /* Adjust the width as needed */
+  max-width: 550px;
+  height: 729px;
+  max-height: 729px;
+  margin: 70px auto; /* Center the container */
+  /* padding: 20px; */
+  border: none;
+}
+
+h1 {
+  padding-top: 35px;
+  font-weight: extrabold;
+  font-size: 28px;
+  color: white;
+}
+
+.header {
+  background-color: #6943ff;
+  text-align: center;
+  width: 550px;
+  height: 347px;
+  max-width: 550px;
+  max-height: 347px;
+
+}
+
+#input-converter {
+  padding: 10px 0px 10px 0px;
+  margin: 10px 1px 10px 1px;
+  align-items: center;
+  font-size: 58px;
+  font-weight: bold;
+  background: none;
+  border: solid 3px #b295ff;
+  width: 117px;
+  height: 83px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+#convert-btn {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 545;
+  width: 117px;
+  height: 42px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  color: #3d3d3d;
+  cursor: pointer;
+}
+
+#convert-btn:hover {
+  box-shadow: 0 0 30px #b295ff;
+}
+
+#reset-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 545;
+  width: 117px;
+  height: 42px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  color: #3d3d3d;
+  cursor: pointer;
+}
+
+#reset-btn:hover {
+  box-shadow: 0 0 30px #b295ff;
+}
+
+.outputs {
+  margin: 25px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.outputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #CCC1FF;
+  padding: 15px 15px;
+  border-radius: 4.68077px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  width: 500px;
+  height: 108.57px;
+  background-color: #273549;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: semibold;
+}
+
+span {
+  font-size: 14px;
+  color: white;
+}

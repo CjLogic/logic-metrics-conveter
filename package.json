@@ -1,0 +1,15 @@
+{
+    "name": "logic-metrics-converter",
+    "version": "1.0.0",
+    "description": "metrics converter Project",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "vite": "latest"
+    },
+    "devDependencies": {}
+  }
